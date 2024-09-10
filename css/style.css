@@ -249,9 +249,6 @@ section {
 /* section04 */
 .sec4 {
   background-color: #a6a6a6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .sec4 > h1 {
   display: flex;
@@ -270,8 +267,9 @@ section {
 }
 .wns {
   width: 1600px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .wn {
   background-color: #999999;
