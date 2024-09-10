@@ -249,6 +249,9 @@ section {
 /* section04 */
 .sec4 {
   background-color: #a6a6a6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .sec4 > h1 {
   display: flex;
