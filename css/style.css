@@ -26,8 +26,9 @@ a {
   top: 0;
   width: 100%;
   display: block;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   z-index: 1;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 .headerwrap {
   position: relative;
@@ -76,16 +77,15 @@ section {
 /* section01 */
 .sec1 {
   /* background-color: #d9d9d9; */
-  padding-bottom: 450px;
+  margin-bottom: 450px;
 }
-
 .sec1 > h1 {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 70px;
   color: #0072c5;
-  padding-top: 240px;
+  margin-top: 240px;
 }
 .sec1 > span {
   display: flex;
@@ -101,17 +101,19 @@ section {
   align-items: center;
   justify-content: center;
 }
-.slider > img {
-  width: 100px;
-  height: 100px;
+.swiper-button-prev .swiper-button-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .sliderList {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 .sliderTrack {
   display: flex;
   justify-content: center;
-  width: 1280px;
-  height: 720px;
+  /* width: 1280px;
+  height: 720px; */
   border-radius: 20px;
   overflow: hidden;
 }
@@ -126,7 +128,10 @@ section {
   text-decoration: underline;
   color: #333;
 }
-
+.slideStick > div > video {
+  width: 1280px;
+  height: 720px;
+}
 /* section2 */
 .sec2 {
   /* background-color: #bfbfbf; */
@@ -284,6 +289,7 @@ section {
   margin: auto 0;
   display: flex;
   flex-direction: column;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .win {
   display: flex;
@@ -296,6 +302,7 @@ section {
   height: 118px;
   margin: 25px 0px 25px 32px;
   border-radius: 20px;
+  object-fit: cover;
 }
 .win > p {
   font-size: 16px;
@@ -319,7 +326,7 @@ section {
 }
 /* button style */
 .button {
-  width: 120px;
+  width: 180px;
   height: 40px;
   border-radius: 20px;
   display: flex;
@@ -357,6 +364,7 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   margin-left: -400px;
+  z-index: 10;
 }
 .article > span {
   font-size: 18px;

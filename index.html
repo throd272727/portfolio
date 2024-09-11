@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>이혜정</title>
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery-1.12.3.js"></script>
     <script src="js/script.js"></script>
+    
+  </script>
   </head>
   <body>
     <div class="wrap">
@@ -32,41 +35,42 @@
           <h1>PRIVIEW</h1>
           <span>작업된 영상을 최신순으로 미리 볼 수 있습니다.</span>
           <div class="slider">
-            <img src="images/left.png" alt="슬라이드 버튼 이미지1" id="left" />
-            <div class="sliderList">
-              <div class="sliderTrack">
-                <div class="slideStick">
-                  <div>
-                    <img
-                      src="https://picsum.photos/1280/720?random=1"
-                      alt="섹션5 이미지1"
-                    />
-                  </div>
-                </div>
-                <div class="slideStick">
-                  <div>
-                    <img
-                      src="https://picsum.photos/1280/720?random=2"
-                      alt="섹션5 이미지2"
-                    />
-                  </div>
-                </div>
-                <div class="slideStick">
-                  <div>
-                    <img
-                      src="https://picsum.photos/1280/720?random=3"
-                      alt="섹션5 이미지3"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div class="sec1Bt">Watch More</div>
+            <div class="swiper-button-prev">
+              <img src="images/left.png" alt="슬라이드 버튼 이미지1" id="left" />
             </div>
-            <img
-              src="images/right.png"
-              alt="슬라이드 버튼 이미지2"
-              id="right"
-            />
+            <div class="sliderList swiper mySwiper">
+              <div class="sliderTrack swiper-wrapper">
+                <!-- 슬라이드 1: 비디오 1 -->
+                <div class="slideStick swiper-slide">
+                  <div>
+                    <video
+                      src="video/add drama.mp4"
+                      controls
+                      width="100%"
+                      height="100%"
+                      title="비디오 1"
+                    ></video>
+                  </div>
+                </div>
+                <!-- 슬라이드 2: 비디오 2 -->
+                <div class="slideStick swiper-slide">
+                  <div>
+                    <video
+                      src="video/이혜정_3d fake.mp4"
+                      controls
+                      width="100%"
+                      height="100%"
+                      title="비디오 2"
+                    ></video>
+                  </div>
+                </div>
+                <!-- 슬라이드 3: 비디오 3  -->
+              </div>
+              <!-- <a href="#" class="sec1Bt">Watch More</a> -->
+            </div>
+            <div class="swiper-button-next">
+              <img src="images/right.png" alt="슬라이드 버튼 이미지2" id="right" />
+            </div>
           </div>
         </section>
 
@@ -273,117 +277,10 @@
         <!-- work -->
         <!-- section04 -->
         <section class="sec4" id="work">
-          <h1>WORK</h1>
-          <p>만든 영상 보러 가기</p>
+          <h1></h1>
+          <p></p>
           <div class="wns">
-            <div class="wn">
-              <div class="win">
-                <img
-                  src="https://picsum.photos/118/118?random=1"
-                  alt="미리보기 이미지1"
-                />
-                <div class="wininfo">
-                  <span>영상제목</span>
-                  <p>날짜</p>
-                </div>
-                <p>영상설명</p>
-              </div>
-              <div class="sec4Bt">
-                <div class="button sec4Bt1">
-                  <p>Watch More</p>
-                </div>
-              </div>
-            </div>
-            <div class="wn">
-              <div class="win">
-                <img
-                  src="https://picsum.photos/118/118?random=2"
-                  alt="미리보기 이미지2"
-                />
-                <div class="wininfo">
-                  <span>영상제목</span>
-                  <p>날짜</p>
-                </div>
-                <p>영상설명</p>
-              </div>
-              <div class="sec4Bt">
-                <div class="button sec4Bt2">
-                  <p>Watch More</p>
-                </div>
-              </div>
-            </div>
-            <div class="wn">
-              <div class="win">
-                <img
-                  src="https://picsum.photos/118/118?random=3"
-                  alt="미리보기 이미지3"
-                />
-                <div class="wininfo">
-                  <span>영상제목</span>
-                  <p>날짜</p>
-                </div>
-                <p>영상설명</p>
-              </div>
-              <div class="sec4Bt">
-                <div class="button sec4Bt3">
-                  <p>Watch More</p>
-                </div>
-              </div>
-            </div>
-            <div class="wn">
-              <div class="win">
-                <img
-                  src="https://picsum.photos/118/118?random=4"
-                  alt="미리보기 이미지4"
-                />
-                <div class="wininfo">
-                  <span>영상제목</span>
-                  <p>날짜</p>
-                </div>
-                <p>영상설명</p>
-              </div>
-              <div class="sec4Bt">
-                <div class="button sec4Bt4">
-                  <p>Watch More</p>
-                </div>
-              </div>
-            </div>
-            <div class="wn">
-              <div class="win">
-                <img
-                  src="https://picsum.photos/118/118?random=5"
-                  alt="미리보기 이미지5"
-                />
-                <div class="wininfo">
-                  <span>영상제목</span>
-                  <p>날짜</p>
-                </div>
-                <p>영상설명</p>
-              </div>
-              <div class="sec4Bt">
-                <div class="button sec4Bt5">
-                  <p>Watch More</p>
-                </div>
-              </div>
-            </div>
-            <div class="wn">
-              <div class="win">
-                <img
-                  src="https://picsum.photos/118/118?random=6"
-                  alt="미리보기 이미지6"
-                />
-                <div class="wininfo">
-                  <span>영상제목</span>
-                  <p>날짜</p>
-                </div>
-                <p>영상설명</p>
-              </div>
-              <div class="sec4Bt">
-                <div class="button sec4Bt6">
-                  <p>Watch More</p>
-                </div>
-              </div>
-            </div>
+          <!-- sec4 json -->
           </div>
         </section>
 
@@ -396,11 +293,9 @@
               저는 회사와 함께 성장하며,<br />
               제 역량을 계속해서 발전시키고 싶습니다.
             </h1>
-            <div>
-              <a href="#">
-                <div class="button sec5Bt">contact</div>
+              <a href="#" class="button sec5Bt">
+                <p>Contact</p>
               </a>
-            </div>
           </div>
           <video src="images/contact_img.mp4"></video>
         </section>
