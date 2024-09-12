@@ -6,6 +6,7 @@
 html,
 body {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 ul,
 li {
@@ -382,6 +383,7 @@ section {
   /* background-color: #666666; */
   display: flex;
   justify-content: center;
+  margin-bottom: 150px;
 }
 .contactbox {
   width: 1600px;
@@ -435,4 +437,57 @@ section {
 }
 .ff > span {
   color: #b3b3b3;
+}
+
+/* 화면이 768px 이하일 때 */
+@media (max-width: 768px) {
+  .headerwrap {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .sec1 > h1 {
+    font-size: 50px;
+  }
+  .sec1 > span {
+    font-size: 16px;
+  }
+  .sliderTrack {
+    width: 100%;
+    height: auto;
+  }
+  .slideStick > div > video {
+    width: 100%;
+    height: auto;
+  }
+  .intro {
+    width: 100%;
+    gap: 20px;
+  }
+  .profile {
+    width: 100%;
+  }
+  .skill {
+    width: 100%;
+  }
+  .wns {
+    width: 100%;
+    padding-bottom: 20px;
+    gap: 20px;
+    row-gap: 20px;
+  }
+  .win > img {
+    width: 80px;
+    height: 80px;
+  }
+  .footer {
+    width: 100%;
+  }
+  .contactbox {
+    width: 100%;
+    flex-direction: column;
+  }
+  .contact-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
