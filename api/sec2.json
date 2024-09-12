@@ -1,0 +1,69 @@
+{
+  "sectionTitle": "이미지 갤러리",
+  "items": [
+    {
+      "src": "https://picsum.photos/540/540?random=1",
+      "alt": "슬라이드이미지1"
+    },
+    {
+      "src": "https://picsum.photos/540/540?random=2",
+      "alt": "슬라이드이미지2"
+    },
+    {
+      "src": "https://picsum.photos/540/540?random=3",
+      "alt": "슬라이드이미지3"
+    },
+    {
+      "src": "https://picsum.photos/540/540?random=4",
+      "alt": "슬라이드이미지4"
+    },
+    {
+      "src": "https://picsum.photos/540/540?random=5",
+      "alt": "슬라이드이미지5"
+    },
+    {
+      "src": "https://picsum.photos/540/540?random=6",
+      "alt": "슬라이드이미지6"
+    },
+    {
+      "src": "https://picsum.photos/540/540?random=7",
+      "alt": "슬라이드이미지7"
+    },
+    {
+      "src": "https://picsum.photos/540/540?random=8",
+      "alt": "슬라이드이미지8"
+    },
+    {
+      "src": "https://picsum.photos/540/540?random=9",
+      "alt": "슬라이드이미지9"
+    },
+    {
+      "src": "https://picsum.photos/540/540?random=10",
+      "alt": "슬라이드이미지10"
+    },
+    {
+      "src": "https://picsum.photos/540/540?random=11",
+      "alt": "슬라이드이미지11"
+    },
+    {
+      "src": "https://picsum.photos/540/540?random=12",
+      "alt": "슬라이드이미지12"
+    },
+    {
+      "src": "https://picsum.photos/540/540?random=13",
+      "alt": "슬라이드이미지13"
+    },
+    {
+      "src": "https://picsum.photos/540/540?random=14",
+      "alt": "슬라이드이미지14"
+    },
+    {
+      "src": "https://picsum.photos/540/540?random=15",
+      "alt": "슬라이드이미지15"
+    },
+    {
+      "src": "https://picsum.photos/540/540?random=16",
+      "alt": "슬라이드이미지16"
+    }
+  ]
+}

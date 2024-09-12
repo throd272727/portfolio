@@ -155,6 +155,7 @@ section {
   align-items: center;
   justify-content: center;
   transform: rotate(15deg);
+  margin-bottom: -100px;
 }
 .isp > ul {
   display: block;
@@ -175,7 +176,7 @@ section {
   width: 1600px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   padding-top: 300px;
   gap: 230px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
